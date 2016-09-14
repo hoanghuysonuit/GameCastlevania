@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{93DA40AD-0627-4511-8108-F492D7BF2618}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameDx</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Mr Zin\Desktop\GameProgramingWithDirectX\GameGit\GameDx\GameDx\Resource;C:\Users\Mr Zin\Desktop\GameProgramingWithDirectX\GameGit\GameDx\GameDx\Class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Class\Framework\Camera.h" />
+    <ClInclude Include="Class\Framework\CAudio.h" />
+    <ClInclude Include="Class\Framework\DSutil.h" />
+    <ClInclude Include="Class\Framework\dxutil.h" />
+    <ClInclude Include="Class\Framework\KeyBoard.h" />
+    <ClInclude Include="Class\Framework\Sprite.h" />
+    <ClInclude Include="Class\Framework\Text.h" />
+    <ClInclude Include="Class\Framework\Timer.h" />
+    <ClInclude Include="Class\Framework\Windows.h" />
+    <ClInclude Include="Class\Game\Algorithsm\CObjectPool.h" />
+    <ClInclude Include="Class\Game\Algorithsm\QuadNode.h" />
+    <ClInclude Include="Class\Game\Algorithsm\QuadTree.h" />
+    <ClInclude Include="Class\Game\Algorithsm\Singleton.h" />
+    <ClInclude Include="Class\Game\Entity\BaseEntity.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\Brick.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\BrickMini.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\Coin.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\CoinInBox.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\GiftBox.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\GreenMushroom.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\Iteminbox.h" />
+    <ClInclude Include="Class\Game\Entity\Bonus\Star.h" />
+    <ClInclude Include="Class\Game\Entity\Bullet\BulletManager.h" />
+    <ClInclude Include="Class\Game\Entity\Bullet\BulletNormal.h" />
+    <ClInclude Include="Class\Game\Entity\Enemy\CarnivorousPlants.h" />
+    <ClInclude Include="Class\Game\Entity\Enemy\Mushroom.h" />
+    <ClInclude Include="Class\Game\Entity\Enemy\Turtle.h" />
+    <ClInclude Include="Class\Game\Entity\Map\MapManager.h" />
+    <ClInclude Include="Class\Game\Entity\Map\Tile.h" />
+    <ClInclude Include="Class\Game\Entity\Map\Tiless.h" />
+    <ClInclude Include="Class\Game\Entity\MovableEntity.h" />
+    <ClInclude Include="Class\Game\Entity\Objectss.h" />
+    <ClInclude Include="Class\Game\Entity\Player\Player.h" />
+    <ClInclude Include="Class\Game\Entity\StaticEntity.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\Castle.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\Elevator.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\Flag.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\FlagCastle.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPole.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPoleHead.h" />
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPoleTail.h" />
+    <ClInclude Include="Class\Game\Game\Game.h" />
+    <ClInclude Include="Class\Game\Scene\BaseScene.h" />
+    <ClInclude Include="Class\Game\Scene\GameOverScene.h" />
+    <ClInclude Include="Class\Game\Scene\IntroMap.h" />
+    <ClInclude Include="Class\Game\Scene\MenuScene.h" />
+    <ClInclude Include="Class\Game\Scene\PlayScene.h" />
+    <ClInclude Include="Class\Game\Scene\PopupInfo.h" />
+    <ClInclude Include="Class\Game\Scene\SceneManager.h" />
+    <ClInclude Include="Class\Game\Scene\SelectedScene.h" />
+    <ClInclude Include="Class\Game\State\BaseState.h" />
+    <ClInclude Include="Class\Game\State\ClimbState.h" />
+    <ClInclude Include="Class\Game\State\DieState.h" />
+    <ClInclude Include="Class\Game\State\JumpState.h" />
+    <ClInclude Include="Class\Game\State\RunState.h" />
+    <ClInclude Include="Class\Game\State\SitState.h" />
+    <ClInclude Include="Class\Game\State\StandState.h" />
+    <ClInclude Include="Class\Game\Test\Test.h" />
+    <ClInclude Include="Class\Game\Utill\ArchitectureEntity.h" />
+    <ClInclude Include="Class\Game\Utill\Config.h" />
+    <ClInclude Include="Class\Game\Utill\InformationResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\BaseResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\BonusResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\EnermyResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\PlayerResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\SceneResource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\TileResource.h" />
+    <ClInclude Include="Class\Game\Utill\ShowBouding.h" />
+    <ClInclude Include="Class\Game\Utill\stdafx.h" />
+    <ClInclude Include="Class\Mathematics\AABB.h" />
+    <ClInclude Include="Class\Mathematics\Box2D.h" />
+    <ClInclude Include="Class\Mathematics\Collision.h" />
+    <ClInclude Include="Class\Mathematics\Polygon.h" />
+    <ClInclude Include="Class\Mathematics\SweptAABB.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Class\Framework\Camera.cpp" />
+    <ClCompile Include="Class\Framework\CAudio.cpp" />
+    <ClCompile Include="Class\Framework\DSutil.cpp" />
+    <ClCompile Include="Class\Framework\dxutil.cpp" />
+    <ClCompile Include="Class\Framework\KeyBoard.cpp" />
+    <ClCompile Include="Class\Framework\Sprite.cpp" />
+    <ClCompile Include="Class\Framework\Text.cpp" />
+    <ClCompile Include="Class\Framework\Timer.cpp" />
+    <ClCompile Include="Class\Framework\Windows.cpp" />
+    <ClCompile Include="Class\Game\Algorithsm\QuadNode.cpp" />
+    <ClCompile Include="Class\Game\Algorithsm\QuadTree.cpp" />
+    <ClCompile Include="Class\Game\Entity\BaseEntity.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\Brick.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\BrickMini.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\Coin.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\CoinInBox.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\GiftBox.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\GreenMushroom.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\Iteminbox.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\Star.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletManager.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletNormal.cpp" />
+    <ClCompile Include="Class\Game\Entity\Enemy\CarnivorousPlants.cpp" />
+    <ClCompile Include="Class\Game\Entity\Enemy\Mushroom.cpp" />
+    <ClCompile Include="Class\Game\Entity\Enemy\Turtle.cpp" />
+    <ClCompile Include="Class\Game\Entity\Map\MapManager.cpp" />
+    <ClCompile Include="Class\Game\Entity\Map\Tile.cpp" />
+    <ClCompile Include="Class\Game\Entity\Map\Tiless.cpp" />
+    <ClCompile Include="Class\Game\Entity\MovableEntity.cpp" />
+    <ClCompile Include="Class\Game\Entity\Objectss.cpp" />
+    <ClCompile Include="Class\Game\Entity\Player\Player.cpp" />
+    <ClCompile Include="Class\Game\Entity\StaticEntity.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\Castle.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\Elevator.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\Flag.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\FlagCastle.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPole.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPoleHead.cpp" />
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPoleTail.cpp" />
+    <ClCompile Include="Class\Game\Game\Game.cpp" />
+    <ClCompile Include="Class\Game\Scene\GameOverScene.cpp" />
+    <ClCompile Include="Class\Game\Scene\IntroMap.cpp" />
+    <ClCompile Include="Class\Game\Scene\MenuScene.cpp" />
+    <ClCompile Include="Class\Game\Scene\PlayScene.cpp" />
+    <ClCompile Include="Class\Game\Scene\PopupInfo.cpp" />
+    <ClCompile Include="Class\Game\Scene\SceneManager.cpp" />
+    <ClCompile Include="Class\Game\Scene\SelectedScene.cpp" />
+    <ClCompile Include="Class\Game\State\BaseState.cpp" />
+    <ClCompile Include="Class\Game\State\ClimbState.cpp" />
+    <ClCompile Include="Class\Game\State\DieState.cpp" />
+    <ClCompile Include="Class\Game\State\JumpState.cpp" />
+    <ClCompile Include="Class\Game\State\RunState.cpp" />
+    <ClCompile Include="Class\Game\State\SitState.cpp" />
+    <ClCompile Include="Class\Game\State\StandState.cpp" />
+    <ClCompile Include="Class\Game\Test\Test.cpp" />
+    <ClCompile Include="Class\Game\Utill\InformationResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\BaseResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\BonusResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\EnermyResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\PlayerResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\SceneResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ResourceManager\TileResource.cpp" />
+    <ClCompile Include="Class\Game\Utill\ShowBouding.cpp" />
+    <ClCompile Include="Class\Game\WinMain.cpp" />
+    <ClCompile Include="Class\Mathematics\Box2D.cpp" />
+    <ClCompile Include="Class\Mathematics\Collision.cpp" />
+    <ClCompile Include="Class\Mathematics\Polygon.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

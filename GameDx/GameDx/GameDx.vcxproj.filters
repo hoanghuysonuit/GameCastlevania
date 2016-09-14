@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Class\Game\Utill\InformationResource.cpp">
+      <Filter>Game\Utill</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Mathematics\Box2D.cpp">
+      <Filter>Mathermatic</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\Camera.cpp">
+      <Filter>Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\GameOverScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\KeyBoard.cpp">
+      <Filter>Framework\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\Sprite.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\Text.cpp">
+      <Filter>Framework\Sprite\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\Timer.cpp">
+      <Filter>Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\Windows.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Mathematics\Polygon.cpp">
+      <Filter>Mathermatic</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Algorithsm\QuadNode.cpp">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Algorithsm\QuadTree.cpp">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\MenuScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\PlayScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Test\Test.cpp">
+      <Filter>Game\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\BaseEntity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\MovableEntity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\StaticEntity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\BaseState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\ClimbState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\DieState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\JumpState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\RunState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\StandState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\IntroMap.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\PopupInfo.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Player\Player.cpp">
+      <Filter>Game\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\State\SitState.cpp">
+      <Filter>Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\CAudio.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\DSutil.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Framework\dxutil.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\Brick.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\Coin.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\Star.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\WinMain.cpp" />
+    <ClCompile Include="Class\Game\Entity\Bonus\GiftBox.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Enemy\Mushroom.cpp">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ShowBouding.cpp">
+      <Filter>Game\Utill</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\GreenMushroom.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\Iteminbox.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\CoinInBox.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Enemy\Mushroom.cpp" />
+    <ClCompile Include="Class\Game\Entity\Map\Tile.cpp">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\Flag.cpp">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPole.cpp">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPoleHead.cpp">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\FlagPoleTail.cpp">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Enemy\CarnivorousPlants.cpp">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\Castle.cpp">
+      <Filter>Game\Entity\Tile\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\FlagCastle.cpp">
+      <Filter>Game\Entity\Tile\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Map\MapManager.cpp">
+      <Filter>Game\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\Elevator.cpp">
+      <Filter>Game\Entity\Tile\Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Map\Tiless.cpp">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Objectss.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Map\Tile.cpp">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Mathematics\Collision.cpp">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletManager.cpp">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletNormal.cpp">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Enemy\Turtle.cpp">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Tile\Elevator.cpp">
+      <Filter>Game\Entity\Tile\Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Map\Tiless.cpp">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Objectss.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Map\Tile.cpp">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Mathematics\Collision.cpp">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletManager.cpp">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bullet\BulletNormal.cpp">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Entity\Bonus\BrickMini.cpp">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\BaseResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\BonusResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\EnermyResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\PlayerResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\SceneResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Utill\ResourceManager\TileResource.cpp">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Game\Scene\SelectedScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Class\Game\Utill\stdafx.h">
+      <Filter>Game\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\Config.h">
+      <Filter>Game\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\InformationResource.h">
+      <Filter>Game\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\BaseScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Mathematics\Box2D.h">
+      <Filter>Mathermatic</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\Camera.h">
+      <Filter>Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\GameOverScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\KeyBoard.h">
+      <Filter>Framework\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\Sprite.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\Text.h">
+      <Filter>Framework\Sprite\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\Timer.h">
+      <Filter>Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\Windows.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Mathematics\Polygon.h">
+      <Filter>Mathermatic</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Mathematics\SweptAABB.h">
+      <Filter>Mathermatic</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Algorithsm\QuadNode.h">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Algorithsm\QuadTree.h">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Algorithsm\Singleton.h">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Algorithsm\CObjectPool.h">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\MenuScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\PlayScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Test\Test.h">
+      <Filter>Game\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\BaseEntity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\MovableEntity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\StaticEntity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\BaseState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\ClimbState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\DieState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\JumpState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\RunState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\StandState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\IntroMap.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\PopupInfo.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Player\Player.h">
+      <Filter>Game\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\State\SitState.h">
+      <Filter>Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\CAudio.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\DSutil.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Framework\dxutil.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\Brick.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\Coin.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\Star.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Mathematics\AABB.h">
+      <Filter>Mathermatic</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\GiftBox.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Enemy\Mushroom.h">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ShowBouding.h">
+      <Filter>Game\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\GreenMushroom.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\Iteminbox.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\CoinInBox.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Map\MapManager.h">
+      <Filter>Game\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\Flag.h">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPole.h">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPoleHead.h">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\FlagPoleTail.h">
+      <Filter>Game\Entity\Tile\Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Enemy\CarnivorousPlants.h">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\Castle.h">
+      <Filter>Game\Entity\Tile\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\FlagCastle.h">
+      <Filter>Game\Entity\Tile\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Tile\Elevator.h">
+      <Filter>Game\Entity\Tile\Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Map\Tiless.h">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Objectss.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ArchitectureEntity.h">
+      <Filter>Game\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Map\Tile.h">
+      <Filter>Game\Entity\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Mathematics\Collision.h">
+      <Filter>Game\Aglorithsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bullet\BulletManager.h">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bullet\BulletNormal.h">
+      <Filter>Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Enemy\Turtle.h">
+      <Filter>Game\Entity\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Entity\Bonus\BrickMini.h">
+      <Filter>Game\Entity\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ResourceManager\BaseResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Class\Game\Utill\ResourceManager\BonusResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ResourceManager\EnermyResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ResourceManager\PlayerResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ResourceManager\SceneResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Utill\ResourceManager\TileResource.h">
+      <Filter>Game\Utill\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Game\Scene\SelectedScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f1ccb40d-bd66-4564-87df-31850cd7ccc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Utill">
+      <UniqueIdentifier>{8d86b8c3-d53c-4a39-986e-2f7a8b74b523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{7660c5dc-6a89-4204-862c-7f79eab98947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{58046962-4986-4b86-8220-ec4cae78ee1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathermatic">
+      <UniqueIdentifier>{f49c0bd7-96fe-48c0-bb5b-03e68bb7cf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Camera">
+      <UniqueIdentifier>{1116ad5d-84c2-46f1-bfd5-df1a832cb925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\KeyBoard">
+      <UniqueIdentifier>{84dfde50-fc65-4885-ba07-4b525eb889c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sprite">
+      <UniqueIdentifier>{50a177ec-4cd5-4e80-a1f9-cc988f165b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Timer">
+      <UniqueIdentifier>{95a37953-12f0-4e29-b7ce-22be497b7ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Windows">
+      <UniqueIdentifier>{0938f858-0027-4526-9100-00c867cd454e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Aglorithsm">
+      <UniqueIdentifier>{1d82008f-7efb-45ae-81d1-41c6957617df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\MapManager">
+      <UniqueIdentifier>{c1ae470d-cc2a-4d04-acb0-5c1296931491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Test">
+      <UniqueIdentifier>{92b0825c-363c-4b25-ac8f-0f1d970642b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{b25879bc-1928-46de-9c60-3d555f33ea4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State">
+      <UniqueIdentifier>{0ea1d36d-f5bd-43c5-95b1-36bf76b30619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player">
+      <UniqueIdentifier>{30b8faf2-890e-4d24-a347-b60440497df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sound">
+      <UniqueIdentifier>{50757281-7ff3-4f54-80e4-fde3a12a80a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Bonus">
+      <UniqueIdentifier>{67731370-e0c2-4958-8c2e-e3835d11797f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Enemies">
+      <UniqueIdentifier>{8b072a27-5120-44ce-8885-e1ac119b2978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Tile">
+      <UniqueIdentifier>{24b99daa-9648-4c3b-b57d-f2d2cbcca4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Tile\Flag">
+      <UniqueIdentifier>{d32302a2-45f5-449b-b063-e471e62f2d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Tile\Castle">
+      <UniqueIdentifier>{a20ebc3f-445d-40ae-b5b9-d0e6e766eb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Tile\Elevator">
+      <UniqueIdentifier>{7f40330b-c2c8-452b-be80-c8d5cb90322a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Bullet">
+      <UniqueIdentifier>{caf4b4e7-bd89-4b8e-93a9-193a2895128f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Utill\ResourceManager">
+      <UniqueIdentifier>{2be21d51-9bbc-4250-a45f-b931f8c523ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sprite\Text">
+      <UniqueIdentifier>{75413c06-0eec-4154-ac60-f889239285a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
